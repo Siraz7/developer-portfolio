@@ -1,11 +1,37 @@
+ body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+ }
+ .btn-primary{
+    color:white;
+    background-color: #FD6E0A;
+    border: 0;
+   
+ }
 nav{
     display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-family: open sans;
+    font-weight: 45px;
+
 }
 nav ul li{
     list-style-type: none;
-    display: flex;
+    margin-right: 50px;
 
 }
-nav ul li a{
+nav a{
     text-decoration: none;
+    color:#474747;
+    font-family: regular;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+}
+
+.mery_title{
+    color:#FD6E0A;
 }
