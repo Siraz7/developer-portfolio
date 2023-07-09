@@ -11,10 +11,12 @@ font-family: 'Open Sans', sans-serif;
 nav{
     display: flex;
     justify-content: space-between;
+    padding:20px 100px 0px 100px;
 }
 .nav-title{
     font-family: open sans;
     font-weight: 45px;
+    
 
 }
 nav ul li{
@@ -35,3 +37,16 @@ nav ul{
 .mery_title{
     color:#FD6E0A;
 }
+.header{
+    background-color: #FFF8F3;
+   
+}
+.banner{
+    padding: 30px 30px 0px 100px;
+    display: flex;
+}
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
+}
+
